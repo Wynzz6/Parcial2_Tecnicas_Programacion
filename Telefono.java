@@ -11,11 +11,12 @@ public class Telefono {
 
             
         }
-
+    // Método getter para obtener la marca del teléfono
     public String getMarca() {
         return marca;
 
     }
+    // Método getter para obtener el año del producto
     public String getAño(){
         return año;
     }
