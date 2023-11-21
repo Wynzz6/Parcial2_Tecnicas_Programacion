@@ -8,4 +8,18 @@ public class Accesorios {
         this.precio=precio;
 
     }
+
+    public String getCalidad(){
+        return calidad;
+
+    }
+
+    public Double getPrecio() {
+        return precio;
+    }
+
+    /**
+     *
+     * Complejidad: O(1) Constante
+     */
 }
