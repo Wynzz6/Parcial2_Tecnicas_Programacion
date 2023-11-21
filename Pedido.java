@@ -5,7 +5,7 @@ public class Pedido {
      Producto producto = new Producto("Iphone","13PROMAX","120000","12");
 
      System.out.println("El nombre del cliente es: "+cliente);
-     System.out.println("El producto que el cliente quiere es: " +producto);
+
 
 
 
