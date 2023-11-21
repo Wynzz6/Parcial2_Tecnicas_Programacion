@@ -4,34 +4,37 @@ public class Producto {
 
     private String descripcion;
 
-    private Double precio;
+    private String precio;
 
-    private Double cantidadEnInventario;
+    private String cantidadEnInventario;
 
     // Constructor para inicializar los atributos de Producto
 
-    public Producto(String nombre, String descripcion, Double precio, Double cantidadEnInventario) {
+    public Producto(String nombre, String descripcion, String precio, String cantidadEnInventario) {
 
         this.nombre = nombre;
         this.descripcion = descripcion;
         this.precio = precio;
         this.cantidadEnInventario = cantidadEnInventario;
+
+
     }
 
-    // Método getter para establecer el nombre
+    // Método setter para establecer el nombre
     public String setNombre() {
         this.nombre = nombre;
         return nombre;
     }
-
+    // Método getter para obtener la descripción
     public String getDescripcion() {
         return descripcion;
     }
-
-    public Double getPrecio() {
+    // Método getter para obtener el precio
+    public String getPrecio() {
         return precio;
     }
-    public Double getCantidadEnInventario(){
+    // Método getter para obtener la cantidad de objetos en inventario
+    public String getCantidadEnInventario(){
         return cantidadEnInventario;
     }
 
