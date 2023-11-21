@@ -7,6 +7,11 @@ public class Pedido {
      System.out.println("El nombre del cliente es: "+cliente);
      System.out.println("El producto que el cliente requiere es: "+producto);
 
+        /**
+         *
+         * Complejidad: O(1) Constante
+         */
+
 
 
     }

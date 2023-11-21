@@ -37,6 +37,9 @@ public class Producto {
     public String getCantidadEnInventario(){
         return cantidadEnInventario;
     }
-
+/**
+ *
+ * Complejidad: O(1) Constante
+ */
 
 }

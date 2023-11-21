@@ -13,6 +13,10 @@ public class Cliente {
         this.nombre=nombre;
         this.direccionEnvio=direccionEnvio;
         this.listaDePedidos=listaDePedidos;
+        /**
+         *
+        * Complejidad: O(1) Constante
+     */
     }
 
 

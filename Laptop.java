@@ -10,14 +10,20 @@ public class Laptop {
         this.almacenamiento=almacenamiento;
 
     }
-
+    // Método getter para obtener el procesador
     public String getProcesador(){
         return procesador;
     }
+    // Método getter para obtener la memoria RAM
     public Double getRam(){
         return Ram;
     }
+    // Método getter para obtener el Almacenamiento
     public String getAlmacenamiento(){
         return almacenamiento;
     }
+    /**
+     *
+     * Complejidad: O(1) Constante
+     */
 }

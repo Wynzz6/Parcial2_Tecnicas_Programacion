@@ -11,6 +11,11 @@ public class Telefono {
         System.out.println("Iphone 13 Pro Max");
             return true;
 
+        /**
+         *
+         * Complejidad: O(1) Constante
+         */
+
             
         }
     }
